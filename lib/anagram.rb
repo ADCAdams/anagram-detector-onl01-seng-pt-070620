@@ -11,9 +11,9 @@ class Anagram
   def match(word_array)
     word_array.each do |wordString|
       single_word_array = wordString.join
+      return wordString if single_word_array.sort == @word.sort
       
-      
-      wrodarray.sort == otherwordarray.sort 
+    end
   end
   
 end     #ends class
