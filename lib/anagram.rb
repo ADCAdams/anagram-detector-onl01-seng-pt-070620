@@ -9,7 +9,11 @@ class Anagram
   
   
   def match(word_array)
-    
+    word_array.each do |wordString|
+      single_word_array = wordString.join
+      
+      
+      wrodarray.sort == otherwordarray.sort 
   end
   
 end     #ends class
