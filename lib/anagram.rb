@@ -11,7 +11,7 @@ class Anagram
   def match(word_array)
     word_array.each do |wordString|
       single_word_array = wordString.split("")
-      return wordString if single_word_array.sort == @word.sort
+      return wordString.join if single_word_array.sort == @word.sort
       
     end
   end
